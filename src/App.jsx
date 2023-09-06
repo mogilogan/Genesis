@@ -1,26 +1,20 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Earth3JS from "./Earthdmoon";
+import { Heross, Experience, Hero, Navbar, StarsCanvas } from "./src/components";
 
-import {  Heross, Experience, Hero, Navbar, StarsCanvas } from "./components";
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
-          {/* <Hero /> */}
-        </div>
+function App (){
+  return(
+    <div>
+       <Earth3JS/>
+       <Hero/>
+    
+       <Experience/>
+       <Heross />
+       <StarsCanvas/>
+    </div>
 
-        <div className='relative z-0'>
-          <Heross />
-          <StarsCanvas />
-        </div>
-
-        <Experience />
-      </div>
-      </BrowserRouter>
-      
-  );
+)
 }
 
 export default App;
