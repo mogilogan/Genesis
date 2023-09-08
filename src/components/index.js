@@ -1,26 +1,19 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from "./Hero";
-import Navbar from "./Navbar";
 
 import Experience from "./Experience";
 
 
 
-import Heross from './Heross';
+import Workshop from './Workshop';
 
 import CanvasLoader from "./Loader";
 
 
 export {
-
-  
   Hero,
-  Navbar,
-
-
   Experience,
-
-  Heross,
+  Workshop,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

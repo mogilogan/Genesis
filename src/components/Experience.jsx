@@ -12,6 +12,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import { StarsCanvas } from "./canvas";
+import cmgsoon from '../assets/cmgsoon.gif'
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -59,8 +60,8 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <section className="w-[100%] ">
+      <motion.div variants={textVariant()} >
         <p className={`${styles.sectionSubText} text-center `}>
           Exictments so far.
         </p>
@@ -68,8 +69,9 @@ const Experience = () => {
           Events
         </h2>
       </motion.div>
+      <img className="mx-auto pt-10  md:min-w-[900px]" src={cmgsoon}/>
 
-      <div className='mt-20 flex flex-col'>
+      {/* <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -78,9 +80,9 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
-      </div>
+      </div> */}
       <StarsCanvas/>
-    </>
+    </section>
   );
 };
 

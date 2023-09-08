@@ -12,6 +12,10 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      fontFamily: {
+        'space': ['Orbitron','sans-serif'],
+       
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
@@ -23,5 +27,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };

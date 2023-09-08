@@ -14,12 +14,15 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Genesis<span className='text-[#915EFF]'>COS</span>
+          <h1 className={`${styles.heroHeadText} text-white `}>
+            Genesis
+          </h1>
+          <h1 className={`${styles.heroHeadText} text-white `}>
+            <span className='text-[#915EFF]'>COSMOCOMM</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           Theme discrppton expanokkkk<br className='sm:block hidden' />
-            Theme dscript
+           Tune into Lunar Frequencies<br className='sm:block hidden' />
+            Join us on the incredible cosmic journey
           </p>
         </div>
       </div>

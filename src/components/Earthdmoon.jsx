@@ -217,7 +217,7 @@ controls.enableZoom = false;
   return (
     <>
   
-      <main style={{ maxHeight: "100vh", overflow: "hidden",position:'absolute' }}>
+      <main style={{ maxHeight: "100vh", }}>
           <Canvas
           
             camera={{ position: [0, 0, 8.5], fov: 40 }}
@@ -225,9 +225,8 @@ controls.enableZoom = false;
               width: "100%",
               height: "75vh",
               objectFit: "cover",
-              backgroundSize: "cover",
-              boxShadow:
-                "0 0 200px rgba(0,0,0,0.4) inset, 0 0 300px rgba(0,0,0,1) inset",
+             
+              
             }}
           >
             <Earth position={[0, -0.1, 0]} />
@@ -239,13 +238,13 @@ controls.enableZoom = false;
             />
             {settingsAreLow && (
               <>
-                <ambientLight intensity={0.1} color="#ffffff" />
+                <ambientLight intensity={0.1}  />
                 <spotLight
                   position={[10, 10, 10]}
                   angle={0.15}
                   penumbra={1}
                   castShadow
-                  color="#fffff5"
+                  
                 />
                 <pointLight
                   position={[-5, 5, 1]}
@@ -253,7 +252,7 @@ controls.enableZoom = false;
                   angle={0}
                   penumbra={0}
                   castShadow
-                  color="#fffff5"
+                
                 />
               </>
             )}
@@ -261,19 +260,7 @@ controls.enableZoom = false;
           </Canvas>
          
 
-          <div
-            style={{
-              position: "absolute",
-              right: 0,
-              bottom: 0,
-              backgroundColor: "#ccc",
-              opacity: 0.5,
-              paddingLeft: 2,
-              paddingRight: 2,
-            }}
-          >
-            
-          </div>
+        
       </main>
       <StarsCanvas/>
 
