@@ -18,11 +18,11 @@ const Navbar = () => {
   const [isMobileNavOpen, setisMobileNavOpen] = useState(false); // For toggling the mobile nav
 
   //   If button is there
-  const handleClick = () => {
-    if (isMobileNavOpen) {
-      setisMobileNavOpen(false);
-    }
-  };
+  // const handleClick = () => {
+  //   if (isMobileNavOpen) {
+  //     setisMobileNavOpen(false);
+  //   }
+  // };
   
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

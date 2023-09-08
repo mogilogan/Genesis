@@ -70,6 +70,7 @@ controls.enableZoom = false;
       setSettingsAreLow(false);
     } else {
       setSettingsAreLow(true);
+      setSimulationSpeed(2);
     }
   };
 
