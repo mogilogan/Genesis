@@ -64,7 +64,7 @@ const Navbar = () => {
                         : ""
                     }`}
                   >
-                    <span className="mx-1 font-space font-bold">{title}</span>
+                    <span className="mx-1 font-space font-bold ">{title}</span>
                   </a>
                 </NavLink>
               ))}
