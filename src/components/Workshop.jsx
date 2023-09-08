@@ -2,10 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { EarthCanvas, StarsCanvas } from "./canvas";
+import { StarsCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { Link } from "react-router-dom";
 
 import rocketry from '../assets/rocketry.gif';
 
