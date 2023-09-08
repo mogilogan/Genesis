@@ -9,6 +9,7 @@ import TwoKEarth from "./images/2k_earth_daymap.webp";
 import FourKEarth from "./images/4k_earth_daymap.webp";
 import moon720p from "./images/720p_moon.webp";
 import moon360p from "./images/360p_moon.webp";
+import { StarsCanvas } from "./canvas";
 
 
 export const Earth3JS = () => {
@@ -28,6 +29,12 @@ export const Earth3JS = () => {
    * to lowest. It affects tri counts and texture sizes. The tri count of the
    * Earth sphere does not lower since it would clip through the clouds sphere.
    */
+
+  controls = new THREE.OrbitControls( camera );
+
+// to disable zoom
+controls.enableZoom = false;
+
   const toggleGraphics = () => {
     if (earthTextureToUse === TwoKEarth) {
       setEarthTextureToUse(FourKEarth);
@@ -210,15 +217,15 @@ export const Earth3JS = () => {
   return (
     <>
   
-      <main style={{ maxHeight: "100vh", overflow: "hidden" }}>
+      <main style={{ maxHeight: "100vh", overflow: "hidden",position:'absolute' }}>
           <Canvas
+          
             camera={{ position: [0, 0, 8.5], fov: 40 }}
             style={{
               width: "100%",
               height: "75vh",
               objectFit: "cover",
               backgroundSize: "cover",
-              backgroundColor: "black",
               boxShadow:
                 "0 0 200px rgba(0,0,0,0.4) inset, 0 0 300px rgba(0,0,0,1) inset",
             }}
@@ -250,7 +257,7 @@ export const Earth3JS = () => {
                 />
               </>
             )}
-            <OrbitControls />
+            <OrbitControls enableZoom={false} />
           </Canvas>
          
 
@@ -267,8 +274,9 @@ export const Earth3JS = () => {
           >
             
           </div>
-    
       </main>
+      <StarsCanvas/>
+
 
       
     </>
