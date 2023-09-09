@@ -44,7 +44,8 @@ const Navbar = () => {
                 <img
                 src={logo}
                   alt="alt placeholder"
-                  className="w-12 h-12 -mt-1 inline mx-auto"
+                  
+                  className=" h-[100px] w-[100px] -mt-1 inline mx-auto"
                 />
               </span>
             </div>
@@ -101,7 +102,7 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="alt placeholder"
-                className="w-8 h-8 mx-auto mb-5 "
+                className="h-[200px] w-[200px] mx-auto mb-5 "
               />
 
               {/* Links */}

@@ -1,6 +1,6 @@
 
 import Earth3JS from "./Earthdmoon";
-import { Workshop, Experience, Hero, StarsCanvas } from "./components";
+import { Workshop,About, Experience, Hero, StarsCanvas } from "./components";
 
 import Navbar from './components/Navbar'
 
@@ -14,6 +14,10 @@ function App (){
 
        <div id="dashboard">
        <Hero/>
+       </div>
+       <div id="about">
+       <About/>
+      
        </div>
        <Earth3JS/>
        <StarsCanvas/>

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+import logo from '../assets/logo.png';
+import {MovingComponent} from 'react-moving-text'
 
 const Hero = () => {
   return (
@@ -17,11 +19,22 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white `}>
             Genesis
           </h1>
-          <h1 className={`${styles.heroHeadText} text-white `}>
-            <span className='text-[#915EFF]'>COSMOCOMM</span>
+          <h1 className={`${styles.heroHeadText}  text-[#915EFF]`}>
+          <MovingComponent
+  type="flash"
+  duration="1400ms"
+  className={`${styles.heroHeadText} font-space text-[#915EFF]`}
+  delay="1s"
+
+  direction="normal"
+  timing="ease-in"
+  iteration="infinite"
+  fillMode="forwards">
+  COSMOCOMM
+</MovingComponent>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           Tune into Lunar Frequencies<br className='sm:block hidden' />
+           Tune into Lunar Frequencies<br  />
             Join us on the incredible cosmic journey
           </p>
         </div>
@@ -43,6 +56,7 @@ const Hero = () => {
               }}
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
+            
           </div>
         </a>
       </div>
