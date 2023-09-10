@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -201,5 +202,83 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+
+
+
+/* Popup style */
+
+ 
+.close-icon {
+
+  cursor: pointer;
+  position: fixed;
+  right: calc(5% - 30px);
+  top: calc(102vh - 85vh - 33px);
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.fcuk {
+   
+    
+    
+  
+  letter-spacing: 7px!important;
+ 
+  text-transform: uppercase;
+}
+.fcuks {
+   
+    
+    
+  
+  letter-spacing: 7px!important;
+ 
+  text-transform: uppercase;
+}
+
+.fcuk {
+  
+  background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(165, 8%, 53%) 10%, hsl(0, 0%, 50%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+.fcuks {
+  
+  background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(165, 8%, 45%) 10%, hsl(0, 0%, 50%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 800px;
+  }
+}
+
+@keyframes shines {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 800px;
   }
 }

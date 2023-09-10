@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         'space': ['Orbitron','sans-serif'],
+        'bubble': ['Rubik Bubbles','cursive'],
        
       },
       boxShadow: {

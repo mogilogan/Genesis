@@ -25,7 +25,6 @@ const Hero = () => {
   duration="1400ms"
   className={`${styles.heroHeadText} font-space text-[#915EFF]`}
   delay="1s"
-
   direction="normal"
   timing="ease-in"
   iteration="infinite"

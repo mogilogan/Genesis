@@ -59,7 +59,7 @@ import cmgsoon from '../assets/cmgsoon.gif'
 
 const Experience = () => {
   return (
-    <section className="w-[100%] ">
+    <section className="w-[100%] z-0">
       <motion.div variants={textVariant()} >
         <p className={`${styles.sectionSubText} text-center `}>
           Exictments so far.
