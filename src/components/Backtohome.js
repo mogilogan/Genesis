@@ -6,8 +6,7 @@ import { navLinks } from "./navData";
 
 import { Link, NavLink } from "react-router-dom";
 
-import {BsRocketFill,BsRocketTakeoffFill} from 'react-icons/bs'
-
+import {FaRocket} from 'react-icons/fa6'
 import logo from '../assets/logo.png';
 
 
@@ -47,15 +46,15 @@ const Backtohome = () => {
               </span>
             </div>
              {/* After all nav links if you want any button in right then it will come here */}
-             <div></div>
+             <div className="flex flex-row py-auto"><p className="font-space text-3xl text-transparent bg-clip-text  bg-gradient-to-r from-teal-400  to-yellow-500 ">Genesis '23</p></div>
 
-            <div className="px-2 md:flex gap-x-5 items-center  text-red-900 font-medium capitalize ">
+            <div className="px-2 md:flex gap-x-5 items-center  text-[#565656]font-medium capitalize ">
               {/* Links */}
              
                 <Link to="/" >
                   <a
                  
-                    className={`px-2 py-1 flex items-center cursor-pointer font-space   hover:bg-gray-200 hover:text-gray-700 text-xl rounded
+                    className={`px-2 py-1 flex items-center cursor-pointer bg-[#] font-space hover:text-black  bg-white hover:bg-[#b6c480] text-xl rounded
                       
                     "text-gray-700 
                        

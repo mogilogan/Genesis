@@ -52,13 +52,13 @@ const Navbar = () => {
              {/* After all nav links if you want any button in right then it will come here */}
              <div></div>
 
-            <div className="px-2 md:flex gap-x-5 items-center  text-red-900 font-medium capitalize hidden">
+            <div className="px-2 md:flex gap-x-5 items-center  text-[#565656]  font-medium capitalize hidden">
               {/* Links */}
               {navLinks?.map(({ title, link }, id) => (
                 <NavLink key={id}  onClick={() => scrollToSection(link)}>
                   <a
                     id={id}
-                    className={`px-2 py-1 flex items-center cursor-pointer font-space   hover:bg-gray-200 hover:text-gray-700 text-xl rounded ${
+                    className={`px-2 py-1 flex items-center bg-white hover:bg-[#b6c480] cursor-pointer font-space    hover:text-black text-xl rounded ${
                       window.location.pathname === link
                         ? "text-gray-700 "
                         : ""
