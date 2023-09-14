@@ -4,10 +4,11 @@ import about from '../assets/about.png'
 import about1 from '../assets/about1.jpg'
 import about2 from '../assets/about2.jpg'
 import { StarsCanvas } from './canvas'
+import { SectionWrapper } from '../hoc'
 
 const About = () => {
   return (
-    <div>
+    <section className='z-0 w-[100%]'>
     <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         <div class="flex flex-col lg:flex-row justify-between gap-8">
             <div class="w-full lg:w-5/12 flex flex-col justify-center">
@@ -41,9 +42,9 @@ const About = () => {
             </div>
         </div>
     </div>
-    <StarsCanvas/>
-</div>
+  <StarsCanvas/>
+</section>
   )
 }
 
-export default About;
+export default SectionWrapper(About, "work");

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -211,32 +212,40 @@
 /* Popup style */
 
  
-.close-icon {
+.popup-box {
+  background-color: #4d4d4d;
+    position: fixed;
+    width: 40%;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+}
+ 
 
-  cursor: pointer;
-  position: fixed;
-  right: calc(5% - 30px);
-  top: calc(102vh - 85vh - 33px);
-  border-radius: 50%;
-  line-height: 20px;
-  text-align: center;
-  border: 1px solid #999;
-  font-size: 20px;
+.heart {
+   
+  animation: beat 1.5s infinite alternate;
+  transform-origin: center;
 }
 
+/* Heart beat animation */
+@keyframes beat{
+  to { transform: scale(1.2); }
+}
+
+
 .fcuk {
-   
-    
-    
+
   
   letter-spacing: 7px!important;
  
   text-transform: uppercase;
 }
 .fcuks {
-   
-    
-    
+  
   
   letter-spacing: 7px!important;
  
@@ -246,7 +255,7 @@
 .fcuk {
   
   background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(165, 8%, 53%) 10%, hsl(0, 0%, 50%) 20%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
 }
@@ -254,7 +263,7 @@
 .fcuks {
   
   background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(165, 8%, 45%) 10%, hsl(0, 0%, 50%) 20%);
-  -webkit-background-clip: text;
+ background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s infinite linear;
 }
@@ -282,3 +291,287 @@
     background-position: 800px;
   }
 }
+
+
+
+
+
+
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.stage {
+  width: 15em;
+  height: 15em;
+  position: relative;
+  transform: rotate(45deg);
+  font-size: 16px;
+  animation: zigzack 4s linear infinite alternate-reverse;
+}
+
+@keyframes zigzack {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+
+  100% {
+    left: 10px;
+    bottom: 50px;
+  }
+}
+
+.body {
+  height: 10em;
+  width: 4em;
+  background-color: #3ca7f5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+}
+
+.top {
+  position: absolute;
+  height: 2em;
+  width: 1em;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.light {
+  position: absolute;
+  height: 0.5em;
+  width: 0.5em;
+  top: -0.5em;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  animation: blink 1s linear infinite alternate-reverse;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+    background-color: black;
+  }
+}
+
+.antenna {
+  position: absolute;
+  height: 1.5em;
+  width: 0.1em;
+  bottom: 0;
+  left: 50%;
+  background-color: #3ca7f5;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+}
+.base2 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 1.1em;
+  width: 0.5em;
+  background-color: #3ca7f5;
+  transform: translate(-50%, -50%);
+}
+
+.base1 {
+  position: absolute;
+  height: 0.9em;
+  width: 1em;
+  bottom: 0;
+  left: 50%;
+  background-color: #3ca7f5;
+  transform: translate(-50%, -50%);
+}
+
+.glass {
+  position: absolute;
+  height: 3em;
+  width: 2em;
+  background: url('https://i.postimg.cc/sD7SQ2y3/giphy-2.gif') ;
+  border-radius: 20px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reflection {
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 3px;
+  right: 0.2em;
+  top: 0.5em;
+  filter: blur(0.06em);
+}
+
+.flag {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.boster {
+  position: absolute;
+  height: 5em;
+  width: 2em;
+  background-color: #b4d3e9;
+
+  border-radius: 7px;
+  z-index: 2;
+}
+.bosterL {
+  bottom: 0em;
+  left: -1em;
+}
+.bosterL p{
+  transform: rotate(-90deg);
+  position: relative;
+  top: 30px;
+  font-size: 9px;
+  font-weight: 1000;
+}
+.bosterR {
+  bottom: 0em;
+  right: -1em;
+}
+
+.bosterR p{
+  transform: rotate(90deg);
+  position: relative;
+  top: 27px;
+  font-size: 9px;
+  font-weight: 1000;
+}
+.ring {
+  position: absolute;
+  height: 1em;
+  width: 4em;
+  background-color: #275792;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s1 {
+  height: 0.5em;
+  width: 0.2em;
+  background-color: black;
+}
+
+.fire {
+  position: absolute;
+  height: 5em;
+  width: 4em;
+  bottom: -5em;
+  display: flex;
+  justify-content: space-around;
+  z-index: 0;
+}
+
+.flame {
+  position: relative;
+  top: -0.3em;
+  height: 5em;
+  width: 0.5em;
+  background-color: #f6a728;
+  border-radius: 1px;
+}
+
+.flame.h1 {
+  height: 4em;
+  animation: flameGrowH1 0.5s linear 0.5s infinite alternate-reverse;
+}
+
+.flame.h2 {
+  height: 3em;
+  animation: flameGrowH2 0.5s linear 1s infinite alternate-reverse;
+  background-color: #f66928;
+}
+
+.flame.h3 {
+  height: 5em;
+  animation: flameGrowH3 0.5s linear 1.2s infinite alternate-reverse;
+}
+
+.flame.h4 {
+  height: 5em;
+  animation: flameGrowH3 0.4s linear 1s infinite alternate-reverse;
+  background-color: #f66928;
+}
+
+.flame.h5 {
+  height: 5em;
+  animation: flameGrowH3 0.6s linear 1.5s infinite alternate-reverse;
+}
+
+@keyframes flameGrowH1 {
+  0% {
+    height: 4em;
+  }
+
+  100% {
+    height: 6em;
+  }
+}
+
+@keyframes flameGrowH2 {
+  0% {
+    height: 4em;
+  }
+
+  100% {
+    height: 6em;
+  }
+}
+@keyframes flameGrowH3 {
+  0% {
+    height: 4em;
+  }
+
+  100% {
+    height: 6em;
+  }
+}
+.animated-heading {
+  display: flex;
+  
+   
+    height: 10vh;
+    right: 10
+}
+.animated-heading h1 {
+
+    color: #cf3636;
+    font-weight: 600;
+font-size: 25px;
+    top: 70%;
+
+}
+
+
+
+
+  

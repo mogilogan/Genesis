@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import logo from '../assets/logo.png';
 import {MovingComponent} from 'react-moving-text'
 
 const Hero = () => {

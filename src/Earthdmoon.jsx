@@ -9,6 +9,7 @@ import TwoKEarth from "./images/2k_earth_daymap.webp";
 import FourKEarth from "./images/4k_earth_daymap.webp";
 import moon720p from "./images/720p_moon.webp";
 import moon360p from "./images/360p_moon.webp";
+import { StarsCanvas } from "./components/canvas";
 
 
 export const Earth3JS = () => {
@@ -250,14 +251,14 @@ export const Earth3JS = () => {
   return (
     <>
   
-      <main style={{ maxHeight: "100vh", overflow: "hidden" }}>
+      <main style={{ maxHeight: "100vh",overflow:"hidden" }}>
           <Canvas
             camera={{ position: [0, 0, 8.5], fov: 40 }}
             style={{
               width: "100%",
               height: "75vh",
               objectFit: "cover",
-              backgroundSize: "cover",
+             
            
             }}
           >
@@ -295,19 +296,7 @@ export const Earth3JS = () => {
         
          
 
-          <div
-            style={{
-              position: "absolute",
-              right: 0,
-              bottom: 0,
-              backgroundColor: "#ccc",
-              opacity: 0.5,
-              paddingLeft: 2,
-              paddingRight: 2,
-            }}
-          >
-            
-          </div>
+       <StarsCanvas/>
     
       </main>
 

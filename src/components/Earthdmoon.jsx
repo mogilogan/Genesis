@@ -9,7 +9,6 @@ import TwoKEarth from "./images/2k_earth_daymap.webp";
 import FourKEarth from "./images/4k_earth_daymap.webp";
 import moon720p from "./images/720p_moon.webp";
 import moon360p from "./images/360p_moon.webp";
-import { StarsCanvas } from "./canvas";
 
 
 export const Earth3JS = () => {
@@ -29,12 +28,6 @@ export const Earth3JS = () => {
    * to lowest. It affects tri counts and texture sizes. The tri count of the
    * Earth sphere does not lower since it would clip through the clouds sphere.
    */
-
-  controls = new THREE.OrbitControls( camera );
-
-// to disable zoom
-controls.enableZoom = false;
-
   const toggleGraphics = () => {
     if (earthTextureToUse === TwoKEarth) {
       setEarthTextureToUse(FourKEarth);
@@ -70,7 +63,6 @@ controls.enableZoom = false;
       setSettingsAreLow(false);
     } else {
       setSettingsAreLow(true);
-      setSimulationSpeed(2);
     }
   };
 
@@ -215,19 +207,58 @@ controls.enableZoom = false;
     );
   };
 
+
+  const Genesis = (props) => {
+    /**
+     * This tracks wether mouse cursor is on the button so that the cursor can
+     * change to a pointer.
+     */
+    const [hovered, setHovered] = useState(false);
+
+    useEffect(() => {
+      document.body.style.cursor = hovered ? "pointer" : "auto";
+    }, [hovered]);
+    const mesh = useRef();
+
+    useFrame(() => {
+      if (settingsAreLow) {
+        mesh.current.rotation.x =
+          simulationSpeed * (Math.sin(Date.now() * 0.001) * Math.PI * 0.01);
+        mesh.current.rotation.y =
+          simulationSpeed * (Math.sin(Date.now() * 0.001) * Math.PI * 0.004);
+        mesh.current.rotation.z =
+          simulationSpeed * (Math.sin(Date.now() * 0.001) * Math.PI * 0.015);
+      }
+    });
+
+    return (
+      <mesh
+       {...props}
+        ref={mesh}
+        scale={[0.15, 0.15, 0.15]}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
+      >
+        <Text depthTest={true} fillOpacity={0.85}>
+          Genesis - Cosmocomm
+        </Text>
+      </mesh>
+    );
+  };
+
+
   return (
     <>
   
-      <main style={{ maxHeight: "100vh", }}>
+      <main style={{ maxHeight: "100vh", overflow: "hidden" }}>
           <Canvas
-          
             camera={{ position: [0, 0, 8.5], fov: 40 }}
             style={{
               width: "100%",
               height: "75vh",
               objectFit: "cover",
-             
-              
+              backgroundSize: "cover",
+           
             }}
           >
             <Earth position={[0, -0.1, 0]} />
@@ -237,15 +268,17 @@ controls.enableZoom = false;
               position={[-1.55, 2.5, 0]}
               onClick={toggleGraphics}
             />
+            <Genesis 
+            position={[1.55,2.5,0]}/>
             {settingsAreLow && (
               <>
-                <ambientLight intensity={0.1}  />
+                <ambientLight intensity={0.1} color="#ffffff" />
                 <spotLight
                   position={[10, 10, 10]}
                   angle={0.15}
                   penumbra={1}
                   castShadow
-                  
+                  color="#fffff5"
                 />
                 <pointLight
                   position={[-5, 5, 1]}
@@ -253,18 +286,30 @@ controls.enableZoom = false;
                   angle={0}
                   penumbra={0}
                   castShadow
-                
+                  color="#fffff5"
                 />
               </>
             )}
-            <OrbitControls enableZoom={false} />
+            <OrbitControls />
           </Canvas>
+        
          
 
-        
+          <div
+            style={{
+              position: "absolute",
+              right: 0,
+              bottom: 0,
+              backgroundColor: "#ccc",
+              opacity: 0.5,
+              paddingLeft: 2,
+              paddingRight: 2,
+            }}
+          >
+            
+          </div>
+    
       </main>
-      <StarsCanvas/>
-
 
       
     </>
