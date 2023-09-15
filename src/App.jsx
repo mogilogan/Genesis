@@ -7,13 +7,23 @@ import Navbar from './components/Navbar'
 import Drone from "./components/Drone";
 import Rocketry from "./components/Rocketry";
 import Contact from "./components/Contact";
+import { useState } from "react";
+import Intro from "./components/Intro";
 
 
 function App (){
 
- 
+   const [loading, setLoading] = useState(true);
+
+ const handleroute = () =>{
+   setLoading(false);
+ }
   return(
-    <div>
+    <>
+      {loading ? (
+        <Intro handleroute={handleroute}  />
+      ) : (
+<>
       <Navbar />
    <Routes>
  
@@ -32,9 +42,9 @@ function App (){
     <Route path="/type-wise" exact element={<Typewise/>}/>
         
        </Routes>
-       
-       
-    </div>
+       </>
+      )}
+    </>
 
 )
 }

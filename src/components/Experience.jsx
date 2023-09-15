@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Experience = () => {
   return (
-    <div>
+    <div className='w-[100%]'>
 
 <motion.div variants={textVariant()} >
         <p className={`${styles.sectionSubText} text-center `}>
@@ -19,10 +19,9 @@ const Experience = () => {
           Events
         </h2>
       </motion.div>
-<div className='flex flex-col md:flex-row gap-[200px] items-center justify-center'>
+<div className='flex flex-col md:flex-row gap-[50px] md:gap-[200px] items-center justify-center w-[100%]'>
       <div >
         <Link to="/day-wise">
-    <canvas className='absolute' id="starfield" width="2000" height="1500"></canvas>
     <div className="stage">
       <div className="body">
         <div className="top">
@@ -72,7 +71,6 @@ const Experience = () => {
 
     <div>
     <Link to="/type-wise">
-    <canvas className='absolute' id="starfield" width="2000" height="1500"></canvas>
     <div className="stage">
       <div className="body">
         <div className="top">

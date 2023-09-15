@@ -34,7 +34,7 @@ const Workshop = () => {
       >
         <div className=" flex flex-row">
           <div className="flex flex-col">
-        <p className={styles.sectionSubText}>Aerion</p>
+        <p className={styles.sectionSubText}>Aeroin</p>
         <h3 className={`${styles.sectionHeadText}`}>Rocketry</h3>
         </div>
         

@@ -21,17 +21,7 @@ const Navbar = () => {
   const [isMobileNavdayeventOpen, setisMobileNavdayeventOpen] = useState(false); // For toggling the mobile nav
 
 
-
   
-const [show,setShow] = useState(true); // For toggling the
-// const [play,setPlay] = useState(false); // For toggling the play
-  
-const handlePlay = () =>{
-var audio = document.getElementById('audio');
-audio.volume = 0.8;
-audio.play();
-  setShow(false);
-}
 
 
 const scrollToSection = (sectionId) => {
@@ -50,13 +40,7 @@ const scrollToSection = (sectionId) => {
       <div className="w-full ">
         <div className="pb-0 py-2 px-2 mx-auto ">
           <div className="w-full flex justify-between items-center p-2 text-gray-900  font-medium capitalize">
-            {show===true &&
-          <div className="popup-box ">
-      
-      <div className="mx-auto heart beat">
-        <button className=" bg-yellow-500 px-1 py-2 rounded-lg" onClick={handlePlay}>Please Verify!</button></div>
-     
-    </div> }
+         
 
             {/* Logo */}
             <div>
@@ -73,7 +57,7 @@ const scrollToSection = (sectionId) => {
              <div></div>
              <figure>
 
-  <audio id="audio"   src={aud}>
+  <audio id="audio" autoPlay   src={aud}>
    
   </audio>
 </figure>

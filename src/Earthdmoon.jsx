@@ -251,15 +251,14 @@ export const Earth3JS = () => {
   return (
     <>
   
-      <main style={{ maxHeight: "100vh",overflow:"hidden" }}>
+      <main style={{ maxHeight: "100vh",overflow:"hidden"}}>
           <Canvas
-            camera={{ position: [0, 0, 8.5], fov: 40 }}
+            camera={{ position: [0, 0, 9.5], fov: 40 }}
             style={{
               width: "100%",
               height: "75vh",
               objectFit: "cover",
              
-           
             }}
           >
             <Earth position={[0, -0.1, 0]} />
@@ -291,12 +290,13 @@ export const Earth3JS = () => {
                 />
               </>
             )}
-            <OrbitControls />
+             <OrbitControls enableZoom={false} />
+            
           </Canvas>
         
          
-
-       <StarsCanvas/>
+          <StarsCanvas/>
+      
     
       </main>
 

@@ -1,6 +1,6 @@
 import {
 
-  starbucks,
+  cdebug,chess,adapt,fifa,jam,techquiz,valo,
   
 } from "../assets";
 
@@ -25,8 +25,8 @@ const technical = [
   {
     title: "Tech Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your tech knowledge skills",
+    icon: techquiz,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -40,8 +40,8 @@ const technical = [
   {
     title: "Technical connexion",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSfkddi7Q_C8-pb_ZQjryO0OdQqPH6o0GgzfUsnROKu-jXZfxQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Explore tech's impact through innovative connections",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 11:00 AM",
     points: [
@@ -56,8 +56,8 @@ const technical = [
   {
     title: "Circuit Debugging",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSegjy9Vf1Iza4q_KdqNlomM05JaEvYNVt6s-TeIpHwChh5Phw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Identify and fix electrical faults",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:00 PM",
     points: [
@@ -65,14 +65,14 @@ const technical = [
       "The event has three rounds which test your circuit debugging skills. ",
       "Prerequisite: basics of analog and digital electronics, op amp, ic555, multsim simulator.",
       "Registration fee is Rs. 150.",
-      "COORDINATORS: SANGESH S(8870073053), MADESH VARDHAN, SRI SAIPRIYA R(9443949018)",
+      "COORDINATORS: Sree Teja (7989291343), kalaimathi (9345831705), Ganja Yuvarani (9493724523)",
     ],
   },
   {
-    title: "Paper Presenstation",
+    title: "Paper Presentation",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScAZBLjimWg2_LrF1JW193gFuUUCs1K98VQqKHQ5zaDcO9pxA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Showcase research and ideas eloquently.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 10:00 AM",
     points: [
@@ -80,14 +80,14 @@ const technical = [
       "The selected team should come with the hard copy of their abstracts ",
       "Presentation time is 10 to 15 minutes",
       "Registration fee is Rs. 50.",
-      "COORDINATORS: ANURAGAA S (6381278692), YUVARANI VD(7695981434), THIRUMURUGAN S(9629701158), SWARUP(6309086433)",
+      "COORDINATORS: ANURAGAA S (6381278692), THIRUMURUGAN S(9629701158), SWARUP(6309086433)",
     ],
   },
   {
     title: "Cinematic Science",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeFolVc55n1jVilkikRmdO1Fa257bzr8X1ZHeT2uCTe9TDWVw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Explore science through captivating cinematic experiences.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -98,12 +98,12 @@ const technical = [
     ],
   },
   {
-    title: "Triad ( Googler, Electric Fence, Crosswords )",
+    title: "Triad (Googler, Electric Fence,snippet shuffle)",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSf1HngbWA1kAhDGNP5qeYgM40H5_6j5YbjIJmDnrkE0yc70oQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Fun Fun Fun - Three ways",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "04/10/2023 - 02:00 PM",
+    date: "05/10/2023 - 02:00 PM",
     points: [
       "A team can consist of two members.",
       "It is a collection of three fun events.",
@@ -115,27 +115,26 @@ const technical = [
   {
     title: "Programming dating",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Where Love Meets Logic.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
       "A team can consist of two members.",
       "A female coder is partnered with a male programmer they have to go on programming date which should be technical..",
       "Registration fee is Rs. 150/team.",
-      "COORDINATORS: SANGESH S(8870073053), MANJUNNATH, SIVABHARATH K, SRI SAIPRIYA R(9443949018)",
+      "COORDINATORS: SANGESH S(8870073053), MANJUNNATH, SIVABHARATH K",
     ],
   },
   {
     title: "Hunt the Code",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSegjy9Vf1Iza4q_KdqNlomM05JaEvYNVt6s-TeIpHwChh5Phw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/u56kqcYgeZ6vDEfb9",
+    company_name: "A thrilling code-breaking adventure awaits!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
-      "Maximum of 3 members per team.",
-      "The event has three rounds which test your circuit debugging skills. ",
+      "Maximum of 2 members per team.",
       "The contest will consist of sets of questions, but with a catch: you will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the program which can give the correct output for the given input. (There will also be hidden testcases)",
       "Registration fee is Rs. 75.",
       "COORDINATORS: T C Adityaa-9944581729, Keerthivasan-8778336814 , Kamalesh-9150431574",
@@ -145,10 +144,26 @@ const technical = [
 
 const nontechnical = [
   {
+    title: "Chess",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSdWN2qrHMj7DyiXgK2_SbjFtQrfnKmVTzUyr0L935hi5n9PTw/viewform?usp=sf_link",
+    company_name: "Chess tournament for strategic minds.",
+    icon: fifa,
+    iconBg: "#383E56",
+    date: "04/10/2023 - 02:30 PM",
+    points: [
+      "Solo event. 1v1.",
+      "There will be 10 mins time limit for each player. No increment for time after each move",
+      "Every match will be elimination match",
+      "If stalemate/draw occurs there will be tie breaker for each player with 5 mins each.",
+      "The registration amount is Rs. 75 per member",
+      "COORDINATORS: SAKTHIDHARSHAN M- 8220855421, MURALIDHARAN B-9047085058, HARIHARAN GV - 9629231402",
+    ],
+  },
+  {
     title: "Series Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScvY0Spedrxdt9fqSIfzCIaFi8_KPZyd75THBie2u-hbhY-Sg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your TV show knowledge and win prizes!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -156,7 +171,7 @@ const nontechnical = [
       "Every participant must be respectful towards coordinators and other participants.",
       "Any unfair moments will lead you to disqualification.",
       "Series: Game of Thrones, F.R.I.E.N.D.S, Breaking Bad, The Boys, The Big Bang Theory",
-      "Terms of the Quiz: RELIMINARY ROUND, MERRY-GO ROUND, KNOCK-OUT ROUND, RAPID-FIRE ROUND",
+      "Terms of the Quiz: PRELIMINARY ROUND, MERRY-GO ROUND, KNOCK-OUT ROUND, RAPID-FIRE ROUND",
       "Registration fee is Rs. 150/-",
       "COORDINATORS: Ashmitha (4th Year)-7598588115, Vishnou Prasad (3rd Year)-8807760716, Arvind (3rd Year)-9361080414",
     ],
@@ -164,8 +179,8 @@ const nontechnical = [
   {
     title: "Movie Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSf4IsP48e97Rk5QJy9ltvtZdcyw062wDHpFtfG2O3C1kg6Cjg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your cinematic knowledge and win exciting prizes!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:30 PM",
     points: [
@@ -180,10 +195,10 @@ const nontechnical = [
   {
     title: "Treasure Hunt",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSfJ3hwPWaTV56jx4s5FQTOG-jMeDhTBuiB3WQFDeOAr4lPqUA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Exciting adventure, clues, and treasures await in this thrilling quest",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "05/10/2023 - 10:00 AM",
+    date: "05/10/2023 - 11:00 AM",
     points: [
       "3-4 members per team.",
       "Each team will be provided with sheet of clues which points the places where the treasure marks will be painted.",
@@ -196,8 +211,8 @@ const nontechnical = [
   {
     title: "Anime Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeDeBplAVsjaUspSh0FVrF1UIlCZExJAq0dot3yE9pRx8vZ8g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your knowledge of anime culture in this fun quiz!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -206,14 +221,14 @@ const nontechnical = [
       "In each round, the lowest scoring teams will be eliminated, and the rest will qualify to the next round. The number of teams eliminated is based on the total number of participating teams.",
       "There will be 3 rounds",
       "Registration fee is Rs. 150/Team.",
-      "COORDINATORS: SK. SOHAIL BASHA(9392649878), DHIVYA DARSHINI(7708719371)",
+      "COORDINATORS: SK. SOHAIL BASHA(9392649878), DHIVYA DARSHINI(7708719371), Sabitha-9345404837",
     ],
   },
   {
     title: "Photography",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdIktC5y21X9zVu8XPU5JBwzmATXkh8my673IBBFaGmj34IWA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Capture moments, express creativity, and compete in a visual showcase",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:30 PM",
     points: [
@@ -229,8 +244,8 @@ const nontechnical = [
   {
     title: "Pushup Challenge",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeHFlX6PAdvhrF1tp0y-asEZyYv3JGEFUIL6na1nfFi6iwDQw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Compete in a high-intensity pushup challenge for fitness supremacy!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 11:00 AM",
     points: [
@@ -239,14 +254,14 @@ const nontechnical = [
       "Straighten your arms and legs. Lower your body until your chest nearly touches the floor. Pause, then push yourself back up.",
       " Winners will be declared based the count.",
       "Registration fee is Rs. 50.",
-      "COORDINATORS: ",
+      "COORDINATORS: Shanmukha rao-7735285216, Farid-6381552549",
     ],
   },
   {
     title: "Lyric Finding",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScXYTK-NxFV9yPzzkERqHndKNCCj0Scn5cu9p0AwfMX9yPQ3A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your lyrical knowledge with music-themed challenges",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -262,8 +277,8 @@ const nontechnical = [
   {
     title: "IPL auction",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdhRJkW5BT_r2Sv4NRjGjmfsfCVw5VFgBXRIUT4hDYnvSh4qQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "High-stakes cricket talent acquisition and bidding spectacle.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -281,8 +296,8 @@ const literary = [
   {
     title: "Just a min",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScD75i8tSH8gTA1UdDxD_bvXjB1oHpph-m2hO06ABUc3go_bg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Just a Minute to Make a Difference",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:00 PM",
     points: [
@@ -296,8 +311,8 @@ const literary = [
   {
     title: "Pot Pourri",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeoPHPhcUMtvZfnCIVZSB3bLlwhBZxpS2p1dcneyQ93an-MSQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Mix of surprises and delights for everyone.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -305,14 +320,14 @@ const literary = [
       "Total Three Rounds",
       "Round 1: ACT IT OUT. Round 2: PICTIONARY ROUND. Round 3: TRACK ME",
       "Registration fee is Rs. 150 per Team",
-      "COORDINATORS: Vinodhini.J (3rd year ECE) - 9791082670",
+      "COORDINATORS:thilagavathi anu, Vinodhini.J (3rd year ECE) - 9791082670",
     ],
   },
   {
     title: "whats the climax",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/JLskinkrZUCpjctcA",
+    company_name: " Unforgettable, thrilling, and suspense-filled grand finale.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
@@ -327,8 +342,8 @@ const literary = [
   {
     title: "Sell me a pen",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdEB5hohCHIatraLGR3TKd03yP6MzEyZTw8WXxyaUqV2sjg-Q/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Pitch your persuasive skills",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -336,7 +351,7 @@ const literary = [
       "The participant is given a commodity to sell and has to convince the customer (read, judges) to buy it.",
       "Preparation Time 3 MINUTES. Duration- 5 minutes",
       "Registration fee is Rs. 50",
-      "Coordinators: Shreyashi Majumder-9563587416, kailash S-6385687148, Reena MD",
+      "Coordinators: Shreyasi Majumder-9563587416, kailash S-6385687148, Reena MD",
     ],
   },
 ]
@@ -345,10 +360,10 @@ const cultural = [
   {
     title: "Variety Variety - Classical Solo",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSd0AUYgsMWaBW21zKv64_Gt1h92cVLqqoGN-FvqB_YG0wHC7Q/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Experience a diverse classical solo showcase in music, dance, and more.",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "05/10/2023 - 10:00 AM",
+    date: "05/10/2023 - 9:30 AM",
     points: [
       "The solo performance can be anything (dancing, singing, Instrumental etc...).",
       " Duration for each performance 3 to 4 minutes.",
@@ -358,26 +373,26 @@ const cultural = [
       "CO-ORDINATORS: DHINESHKUMAR G (8220557900), PRATIKSHA R (9360871181), PRAVEENE R (8438778446)",
     ],
   },
-  {
-    title: "Variety Variety - Western Solo",
-    link:"#",
-    company_name: "small discrip",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "04/10/2023 - 09:30 AM",
-    points: [
-      "Solo event. 1v1.",
-      "The match will be played on playstation.Only Knockout stages. Normal kickoff >>> Extra time >>> penalty shootout",
-      "The match duration will be informed on the day of tournament.",
-      "Registration fee is Rs. 150.",
-      "Coordinators:  9600224229",
-    ],
-  },
+  // {
+  //   title: "Variety Variety - Western Solo",
+  //   link:"#",
+  //   company_name: "small discrip",
+  //   icon: fifa,
+  //   iconBg: "#383E56",
+  //   date: "04/10/2023 - 09:30 AM",
+  //   points: [
+  //     "Solo event. 1v1.",
+  //     "The match will be played on playstation.Only Knockout stages. Normal kickoff >>> Extra time >>> penalty shootout",
+  //     "The match duration will be informed on the day of tournament.",
+  //     "Registration fee is Rs. 150.",
+  //     "Coordinators:  9600224229",
+  //   ],
+  // },
   {
     title: "Adapt Tunes",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Dance to evolving musical rhythms.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -390,9 +405,9 @@ const cultural = [
   },
   {
     title: "Variety Variety - Group",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/2GLzh1kFZ85Jiv4C6",
+    company_name: "A diverse and entertaining event for all",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
@@ -401,7 +416,7 @@ const cultural = [
       "The theme is open, but it should not be abusive, any political issue or hurt any religious view. Otherwise participation will be disqualified.",
       "No lighters, cigarettes are allowed. The Required materials should be brought by the participants themselves. If participants have audio file should be submitted at the starting of the event itself only after final checking.",
       "Registration fee is Rs. 300.",
-      "Coordinators: Hrithin -8156881685, Nivedha P - 8438737345",
+      "Coordinators: Nandhini P-7598514122, Janvi - 9422925547, Yuvashri devi-9443383090",
     ],
   },
 ]
@@ -410,8 +425,8 @@ const esports = [
   {
     title: "Fifa",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdhQeKXCSR-qmLK5_GQtP2puC4S66oVwjQZsIpebxfr5Qq99g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "FIFA gaming tournament for enthusiasts.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -419,14 +434,14 @@ const esports = [
       "The match will be played on playstation.Only Knockout stages. Normal kickoff >>> Extra time >>> penalty shootout",
       "The match duration will be informed on the day of tournament.",
       "Registration fee is Rs. 100.",
-      "Coordinators:  9600224229",
+      "Coordinators: Coordinators: Hrithin-8156881685, Arvindraj J-9600224229",
     ],
   },
   {
     title: "Valorant",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSdhQeKXCSR-qmLK5_GQtP2puC4S66oVwjQZsIpebxfr5Qq99g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSfFDJ_t6XSoC0rtBus8tT2FgNxfo_ympm25S7AFclSe7nhtYA/viewform?usp=sf_link",
+    company_name: "Valorant showdown: tactical battles await",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 07:00 PM",
     points: [
@@ -441,8 +456,8 @@ const esports = [
   {
     title: "Mini Militia",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSck51zGKOEyU4gkkVsQ71eOSZG1AQxJDMONS6gfUNApAlVINQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Competitive gaming with intense multiplayer battles.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 03:00 PM",
     points: [
@@ -456,8 +471,8 @@ const esports = [
   {
     title: "BGMI",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScSwkbY6vSmQhISCVm3EwK3V8m_IfHhEsxdO4u-uji30N1hUA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: " Battle for Victory!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 07:00 PM",
     points: [
@@ -467,32 +482,18 @@ const esports = [
       "Players should carry their own device with the game installed.",
       "If a player found using hacks, the respective team will be disqualified.",
       "Entry fee: Rs. 200 per head",
-      "Coordinators: Vijayapithagaran 6381961491, Kavimani 8903408160",
+      "Coordinators: ",
     ],
   },
 ]
 
 const day1 = [
-  {
-    title: "Paper Presenstation",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLScAZBLjimWg2_LrF1JW193gFuUUCs1K98VQqKHQ5zaDcO9pxA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "04/10/2023 - 10:00 AM",
-    points: [
-      "A team can contain a maximum of three participants",
-      "The selected team should come with the hard copy of their abstracts ",
-      "Presentation time is 10 to 15 minutes",
-      "Registration fee is Rs. 50.",
-      "COORDINATORS: ANURAGAA S (6381278692), YUVARANI VD(7695981434), THIRUMURUGAN S(9629701158), SWARUP(6309086433)",
-    ],
-  },
+
   {
     title: "Circuit Debugging",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSegjy9Vf1Iza4q_KdqNlomM05JaEvYNVt6s-TeIpHwChh5Phw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Identify and fix electrical faults",
+    icon: cdebug,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:00 PM",
     points: [
@@ -500,14 +501,14 @@ const day1 = [
       "The event has three rounds which test your circuit debugging skills. ",
       "Prerequisite: basics of analog and digital electronics, op amp, ic555, multsim simulator.",
       "Registration fee is Rs. 150.",
-      "COORDINATORS: SANGESH S(8870073053), MADESH VARDHAN, SRI SAIPRIYA R(9443949018)",
+      "COORDINATORS: Sree Teja (7989291343), kalaimathi (9345831705), Ganja Yuvarani (9493724523)",
     ],
   },
   {
     title: "Just a min",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScD75i8tSH8gTA1UdDxD_bvXjB1oHpph-m2hO06ABUc3go_bg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Just a Minute to Make a Difference",
+    icon: jam,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:00 PM",
     points: [
@@ -521,8 +522,8 @@ const day1 = [
   {
     title: "Tech Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your tech knowledge skills",
+    icon: techquiz,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -536,8 +537,8 @@ const day1 = [
   {
     title: "Adapt Tunes",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Dance to evolving musical rhythms.",
+    icon: adapt,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -551,8 +552,8 @@ const day1 = [
   {
     title: "Fifa",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdhQeKXCSR-qmLK5_GQtP2puC4S66oVwjQZsIpebxfr5Qq99g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "FIFA gaming tournament for enthusiasts.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "04/10/2023 - 02:30 PM",
     points: [
@@ -560,14 +561,30 @@ const day1 = [
       "The match will be played on playstation.Only Knockout stages. Normal kickoff >>> Extra time >>> penalty shootout",
       "The match duration will be informed on the day of tournament.",
       "Registration fee is Rs. 100.",
-      "Coordinators:  9600224229",
+      "Coordinators: Hrithin-8156881685, Arvindraj J-9600224229",
+    ],
+  },
+  {
+    title: "Chess",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSdWN2qrHMj7DyiXgK2_SbjFtQrfnKmVTzUyr0L935hi5n9PTw/viewform?usp=sf_link",
+    company_name: "Chess tournament for strategic minds.",
+    icon: chess,
+    iconBg: "#383E56",
+    date: "04/10/2023 - 02:30 PM",
+    points: [
+      "Solo event. 1v1.",
+      "There will be 10 mins time limit for each player. No increment for time after each move",
+      "Every match will be elimination match",
+      "If stalemate/draw occurs there will be tie breaker for each player with 5 mins each.",
+      "The registration amount is Rs. 75 per member",
+      "COORDINATORS: SAKTHIDHARSHAN M- 8220855421, MURALIDHARAN B-9047085058, HARIHARAN GV - 9629231402",
     ],
   },
   {
     title: "Valorant",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSdhQeKXCSR-qmLK5_GQtP2puC4S66oVwjQZsIpebxfr5Qq99g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSfFDJ_t6XSoC0rtBus8tT2FgNxfo_ympm25S7AFclSe7nhtYA/viewform?usp=sf_link",
+    company_name: "Valorant showdown: tactical battles await",
+    icon: valo,
     iconBg: "#383E56",
     date: "04/10/2023 - 07:00 PM",
     points: [
@@ -585,12 +602,27 @@ const day1 = [
 
 const day2 = [
   {
-    title: "Treasure Hunt",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSfJ3hwPWaTV56jx4s5FQTOG-jMeDhTBuiB3WQFDeOAr4lPqUA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    title: "Paper Presentation",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLScAZBLjimWg2_LrF1JW193gFuUUCs1K98VQqKHQ5zaDcO9pxA/viewform?usp=sf_link",
+    company_name: "Showcase research and ideas eloquently.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
+    points: [
+      "A team can contain a maximum of three participants",
+      "The selected team should come with the hard copy of their abstracts ",
+      "Presentation time is 10 to 15 minutes",
+      "Registration fee is Rs. 50.",
+      "COORDINATORS: ANURAGAA S (6381278692), THIRUMURUGAN S(9629701158), SWARUP(6309086433)",
+    ],
+  },
+  {
+    title: "Treasure Hunt",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSfJ3hwPWaTV56jx4s5FQTOG-jMeDhTBuiB3WQFDeOAr4lPqUA/viewform?usp=sf_link",
+    company_name: "Exciting adventure, clues, and treasures await in this thrilling quest",
+    icon: fifa,
+    iconBg: "#383E56",
+    date: "05/10/2023 - 11:00 AM",
     points: [
       "3-4 members per team.",
       "Each team will be provided with sheet of clues which points the places where the treasure marks will be painted.",
@@ -603,8 +635,8 @@ const day2 = [
   {
     title: "Anime Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeDeBplAVsjaUspSh0FVrF1UIlCZExJAq0dot3yE9pRx8vZ8g/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your knowledge of anime culture in this fun quiz!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -613,14 +645,14 @@ const day2 = [
       "In each round, the lowest scoring teams will be eliminated, and the rest will qualify to the next round. The number of teams eliminated is based on the total number of participating teams.",
       "There will be 3 rounds",
       "Registration fee is Rs. 150/Team.",
-      "COORDINATORS: SK. SOHAIL BASHA(9392649878), DHIVYA DARSHINI(7708719371)",
+      "COORDINATORS: SK. SOHAIL BASHA(9392649878), DHIVYA DARSHINI(7708719371), Sabitha-9345404837",
     ],
   },
   {
     title: "Lyric Finding",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScXYTK-NxFV9yPzzkERqHndKNCCj0Scn5cu9p0AwfMX9yPQ3A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your lyrical knowledge with music-themed challenges",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -636,8 +668,8 @@ const day2 = [
   {
     title: "Pot Pourri",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeoPHPhcUMtvZfnCIVZSB3bLlwhBZxpS2p1dcneyQ93an-MSQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Mix of surprises and delights for everyone.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 10:00 AM",
     points: [
@@ -645,16 +677,16 @@ const day2 = [
       "Total Three Rounds",
       "Round 1: ACT IT OUT. Round 2: PICTIONARY ROUND. Round 3: TRACK ME",
       "Registration fee is Rs. 150 per Team",
-      "COORDINATORS: Vinodhini.J (3rd year ECE) - 9791082670",
+      "COORDINATORS:thilagavathi anu, Vinodhini.J (3rd year ECE) - 9791082670",
     ],
   },
   {
     title: "Variety Variety - Classical Solo",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSd0AUYgsMWaBW21zKv64_Gt1h92cVLqqoGN-FvqB_YG0wHC7Q/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Experience a diverse classical solo showcase in music, dance, and more.",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "05/10/2023 - 10:00 AM",
+    date: "05/10/2023 - 9:30 AM",
     points: [
       "The solo performance can be anything (dancing, singing, Instrumental etc...).",
       " Duration for each performance 3 to 4 minutes.",
@@ -667,8 +699,8 @@ const day2 = [
   {
     title: "Pushup Challenge",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeHFlX6PAdvhrF1tp0y-asEZyYv3JGEFUIL6na1nfFi6iwDQw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Compete in a high-intensity pushup challenge for fitness supremacy!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 11:00 AM",
     points: [
@@ -677,14 +709,14 @@ const day2 = [
       "Straighten your arms and legs. Lower your body until your chest nearly touches the floor. Pause, then push yourself back up.",
       " Winners will be declared based the count.",
       "Registration fee is Rs. 50.",
-      "COORDINATORS: ",
+      "COORDINATORS:Shanmukha rao-7735285216, Farid-6381552549",
     ],
   },
   {
     title: "Technical connexion",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSfkddi7Q_C8-pb_ZQjryO0OdQqPH6o0GgzfUsnROKu-jXZfxQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Explore tech's impact through innovative connections.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 11:00 AM",
     points: [
@@ -697,12 +729,12 @@ const day2 = [
     ],
   },
   {
-    title: "Triad ( Googler, Electric Fence, Crosswords )",
+    title: "Triad (Googler, Electric Fence,snippet shuffle)",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSf1HngbWA1kAhDGNP5qeYgM40H5_6j5YbjIJmDnrkE0yc70oQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Fun Fun Fun - Three ways",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "04/10/2023 - 02:00 PM",
+    date: "05/10/2023 - 02:00 PM",
     points: [
       "A team can consist of two members.",
       "It is a collection of three fun events.",
@@ -714,22 +746,22 @@ const day2 = [
   {
     title: "Programming dating",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Where Love Meets Logic.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
       "A team can consist of two members.",
       "A female coder is partnered with a male programmer they have to go on programming date which should be technical..",
       "Registration fee is Rs. 150/team.",
-      "COORDINATORS: SANGESH S(8870073053), MANJUNNATH, SIVABHARATH K, SRI SAIPRIYA R(9443949018)",
+      "COORDINATORS: SANGESH S(8870073053), MANJUNNATH, SIVABHARATH K",
     ],
   },
   {
     title: "whats the climax",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/JLskinkrZUCpjctcA",
+    company_name: " Unforgettable, thrilling, and suspense-filled grand finale.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
@@ -743,9 +775,9 @@ const day2 = [
   },
   {
     title: "Variety Variety - Group",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSfN4LFeNjCkrg2maJrLBaQjcerOCmJqGB3NFPXpqE77Os8TyQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/2GLzh1kFZ85Jiv4C6",
+    company_name: "A diverse and entertaining event for all",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:00 PM",
     points: [
@@ -754,14 +786,14 @@ const day2 = [
       "The theme is open, but it should not be abusive, any political issue or hurt any religious view. Otherwise participation will be disqualified.",
       "No lighters, cigarettes are allowed. The Required materials should be brought by the participants themselves. If participants have audio file should be submitted at the starting of the event itself only after final checking.",
       "Registration fee is Rs. 300.",
-      "Coordinators: Hrithin -8156881685, Nivedha P - 8438737345",
+      "Coordinators: Nandhini P-7598514122, Janvi - 9422925547, Yuvashri devi-9443383090",
     ],
   },
   {
     title: "Movie Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSf4IsP48e97Rk5QJy9ltvtZdcyw062wDHpFtfG2O3C1kg6Cjg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your cinematic knowledge and win exciting prizes!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:30 PM",
     points: [
@@ -776,8 +808,8 @@ const day2 = [
   {
     title: "Photography",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdIktC5y21X9zVu8XPU5JBwzmATXkh8my673IBBFaGmj34IWA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Capture moments, express creativity, and compete in a visual showcase",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 02:30 PM",
     points: [
@@ -793,8 +825,8 @@ const day2 = [
   {
     title: "Mini Militia",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSck51zGKOEyU4gkkVsQ71eOSZG1AQxJDMONS6gfUNApAlVINQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: " Intense mobile multiplayer action for competitive gamers.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 03:00 PM",
     points: [
@@ -808,8 +840,8 @@ const day2 = [
   {
     title: "BGMI",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScSwkbY6vSmQhISCVm3EwK3V8m_IfHhEsxdO4u-uji30N1hUA/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: " Battle for Victory!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "05/10/2023 - 07:00 PM",
     points: [
@@ -819,7 +851,7 @@ const day2 = [
       "Players should carry their own device with the game installed.",
       "If a player found using hacks, the respective team will be disqualified.",
       "Entry fee: Rs. 200 per head",
-      "Coordinators: Vijayapithagaran 6381961491, Kavimani 8903408160",
+      "Coordinators: Deepak Prasad  9059948459, Nishyath 8807843841",
     ],
   },
 ];
@@ -829,25 +861,26 @@ const day2 = [
 const day3 = [
 
   {
-    title: "Variety Variety - Western Solo",
-    link:"#",
-    company_name: "small discrip",
-    icon: starbucks,
+    title: "Solo Dance",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSf4OtVbJvOTMcfTDH-RqK-vJeZxUVaonctdgmEzy9HCyFCdzw/viewform?usp=sf_link",
+    company_name: "Express yourself through solo dance performance.",
+    icon: fifa,
     iconBg: "#383E56",
-    date: "04/10/2023 - 09:30 AM",
+    date: "06/10/2023 - 09:30 AM",
     points: [
-      "Solo event. 1v1.",
-      "The match will be played on playstation.Only Knockout stages. Normal kickoff >>> Extra time >>> penalty shootout",
-      "The match duration will be informed on the day of tournament.",
+      "The solo performance (Dance only).",
+      "Duration for each performance 4 to 5 minutes.",
+      "The theme is open, but it should not be abusive, any political issue or hurt any religious view. Otherwise participation will be disqualified.",
+      "The Required materials should be brought by the participants themselves. If participants have audio file upload now or should be submitted at the starting of the event itself only after final checking.",
       "Registration fee is Rs. 150.",
-      "Coordinators:  9600224229",
+      "COORDINATORS: Shutharshan-8825521823, Pravin-9361445615, Mohammed Rafiq-8015525317, Akanksha Das-9267907798, Rajavardhini-9500619499",
     ],
   },
   {
     title: "Cinematic Science",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSeFolVc55n1jVilkikRmdO1Fa257bzr8X1ZHeT2uCTe9TDWVw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Explore science through captivating cinematic experiences.",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -859,24 +892,23 @@ const day3 = [
   },
   {
     title: "Hunt the Code",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSegjy9Vf1Iza4q_KdqNlomM05JaEvYNVt6s-TeIpHwChh5Phw/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    link:"https://forms.gle/u56kqcYgeZ6vDEfb9",
+    company_name: "A thrilling code-breaking adventure awaits!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
-      "Maximum of 3 members per team.",
-      "The event has three rounds which test your circuit debugging skills. ",
+      "Maximum of 2 members per team.",
       "The contest will consist of sets of questions, but with a catch: you will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the program which can give the correct output for the given input. (There will also be hidden testcases)",
-      "Registration fee is Rs. 75.",
+      "Registration fee is Rs. 75/Team.",
       "COORDINATORS: T C Adityaa-9944581729, Keerthivasan-8778336814 , Kamalesh-9150431574",
     ],
   },
   {
     title: "Series Quiz",
     link:"https://docs.google.com/forms/d/e/1FAIpQLScvY0Spedrxdt9fqSIfzCIaFi8_KPZyd75THBie2u-hbhY-Sg/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Test your TV show knowledge and win prizes!",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -884,7 +916,7 @@ const day3 = [
       "Every participant must be respectful towards coordinators and other participants.",
       "Any unfair moments will lead you to disqualification.",
       "Series: Game of Thrones, F.R.I.E.N.D.S, Breaking Bad, The Boys, The Big Bang Theory",
-      "Terms of the Quiz: RELIMINARY ROUND, MERRY-GO ROUND, KNOCK-OUT ROUND, RAPID-FIRE ROUND",
+      "Terms of the Quiz: PRELIMINARY ROUND, MERRY-GO ROUND, KNOCK-OUT ROUND, RAPID-FIRE ROUND",
       "Registration fee is Rs. 150/-",
       "COORDINATORS: Ashmitha (4th Year)-7598588115, Vishnou Prasad (3rd Year)-8807760716, Arvind (3rd Year)-9361080414",
     ],
@@ -892,8 +924,8 @@ const day3 = [
   {
     title: "IPL auction",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdhRJkW5BT_r2Sv4NRjGjmfsfCVw5VFgBXRIUT4hDYnvSh4qQ/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "High-stakes cricket talent acquisition and bidding spectacle",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -908,8 +940,8 @@ const day3 = [
   {
     title: "Sell me a pen",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSdEB5hohCHIatraLGR3TKd03yP6MzEyZTw8WXxyaUqV2sjg-Q/viewform?usp=sf_link",
-    company_name: "small discrip",
-    icon: starbucks,
+    company_name: "Pitch your persuasive skills",
+    icon: fifa,
     iconBg: "#383E56",
     date: "06/10/2023 - 10:00 AM",
     points: [
@@ -917,7 +949,7 @@ const day3 = [
       "The participant is given a commodity to sell and has to convince the customer (read, judges) to buy it.",
       "Preparation Time 3 MINUTES. Duration- 5 minutes",
       "Registration fee is Rs. 50",
-      "Coordinators: Shreyashi Majumder-9563587416, kailash S-6385687148, Reena MD",
+      "Coordinators: Shreyasi Majumder-9563587416, kailash S-6385687148, Reena MD",
     ],
   },
   
