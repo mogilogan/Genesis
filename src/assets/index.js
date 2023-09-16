@@ -5,36 +5,22 @@ import fifa from './day1/fifa.webp';
 import jam  from './day1/jam.jpeg';
 import techquiz from './day1/techquiz.jpg';
 import valo from './day1/valo.jpeg';
-// import backend from "./backend.png";
-// import creator from "./creator.png";
-// import mobile from "./mobile.png";
-// import web from "./web.png";
-// import github from "./github.png";
-// import menu from "./menu.svg";
-// import close from "./close.svg";
 
-// import css from "./tech/css.png";
-// import docker from "./tech/docker.png";
-// import figma from "./tech/figma.png";
-// import git from "./tech/git.png";
-// import html from "./tech/html.png";
-// import javascript from "./tech/javascript.png";
-// import mongodb from "./tech/mongodb.png";
-// import nodejs from "./tech/nodejs.png";
-// import reactjs from "./tech/reactjs.png";
-// import redux from "./tech/redux.png";
-// import tailwind from "./tech/tailwind.png";
-// import typescript from "./tech/typescript.png";
-// import threejs from "./tech/threejs.svg";
 
-// import meta from "./company/meta.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
-
-// import carrent from "./carrent.png";
-// import jobit from "./jobit.png";
-// import tripguide from "./tripguide.png";
+import a from './day2/a.png';
+import b from './day2/b.png';
+import m from './day2/m.png';
+import p from './day2/p.png';
+import t from './day2/t.png';
+import w from './day2/w.png';
+import v from './day2/v.png';
+import l from './day2/l.png';
+import s from './day2/s.png';
+import c from './day2/c.png';
+import j from './day2/j.png';
+import h from './day2/h.png';
+import i from './day2/i.png';
+import f from './day2/f.png';
 
 export {
  
@@ -46,5 +32,6 @@ export {
  fifa,
  jam,
  techquiz,
- valo
+ valo,
+ a,m,p,t,b,w,v,l,s,c,j,h,i,f
 };

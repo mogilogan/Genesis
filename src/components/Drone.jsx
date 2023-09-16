@@ -70,7 +70,7 @@ const Drone = props => {
   <li>UAV Introduction: 10:15 am to 11:15 am</li>
   <li>Introduction to Drone Electronics: 11:15 am to 12:40 pm</li>
   <li>Drone Prototyping: 1:30 pm to 3:30 pm</li>
-  <li>Flight Testing: 1:30 pm to 3:30 pm</li>
+  <li>Flight Testing: 3:30 pm to 4:00 pm</li>
   </ul></li>
   
   <li>Venue: PTU Premises</li>
