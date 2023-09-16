@@ -335,7 +335,7 @@ const literary = [
       "Participants will step into the shoes of an author or director in this engaging written event.",
       "They'll be presented with a captivating story and tasked with crafting their own climactic endings.",
       "Registration fee is Rs. 50.",
-      "Coordinators: Hrithin -8156881685, Nivedha P - 8438737345",
+      "Coordinators: Hrithin - 8156881685, Nivedha P - 8438737345",
     ],
   },
   {
