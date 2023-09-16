@@ -332,7 +332,7 @@ const literary = [
     date: "05/10/2023 - 02:00 PM",
     points: [
       "INDIVIDUAL EVENT",
-      "Participants will step into the shoes of an author or director in this engaging oral event.",
+      "Participants will step into the shoes of an author or director in this engaging written event.",
       "They'll be presented with a captivating story and tasked with crafting their own climactic endings.",
       "Whether they choose to evoke tears or send shivers down spines, the stage is theirs to command.",
       "Registration fee is Rs. 50.",
