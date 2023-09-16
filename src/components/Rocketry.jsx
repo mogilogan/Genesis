@@ -18,7 +18,7 @@ const Rocketry = props => {
    
     <div class=" m-8 relative space-y-4 text-sm md:text-2xl ">
     <ul class="list-[lower-greek] leading-[3]  font-space">
-  <li>A workshop on Rocketry  by AeroIn Space Tech Pvt Ltd.</li>
+  <li>A Workshop on Rocketry  by AeroIn Space Tech Pvt Ltd.</li>
   <li>Planned to be conducted on 26th, 27th, 28th and 29th of September 2023.</li>
   <li>Theoretical Session: 9:00 am to 1:00 pm</li>
   <li>Rocket Launch: 2:00 pm to 3:30 pm</li>
