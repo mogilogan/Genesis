@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { StarsCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 
 import {motion} from 'framer-motion'
 import { styles } from '../styles';
 import { textVariant } from '../utils/motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 import bullz from '../assets/allday/bullz.jpg';
@@ -14,7 +14,29 @@ import humans from '../assets/allday/humans.jpg';
 import ballon from '../assets/allday/ballon.jpg';
 
 const Experience = () => {
+  const [isTransformActive, setIsTransformActive] = useState(false);
+  const [isTransformActive1, setIsTransformActive1] = useState(false);
+const navigate = useNavigate();
+
+  const handleclick = () => {
+   
+    setIsTransformActive(!isTransformActive);
+ setTimeout(() => {
+  setIsTransformActive(!isTransformActive);
+  navigate("/type-wise")
+ }, 3000);
+  }
+
+  const handleclick1 = () => {
+   
+    setIsTransformActive1(!isTransformActive1);
+ setTimeout(() => {
+  setIsTransformActive1(!isTransformActive1);
+  navigate("/day-wise")
+ }, 3000);
+  }
   return (
+
     <div className='w-[100%]'>
 
 <motion.div variants={textVariant()} >
@@ -27,8 +49,8 @@ const Experience = () => {
       </motion.div>
 <div className='flex flex-col md:flex-row gap-[50px] md:gap-[200px] items-center justify-center w-[100%]'>
       <div >
-        <Link to="/day-wise">
-    <div className="stage">
+       
+        <div  onClick={handleclick1} id='transis' className={`stage1 ${isTransformActive1 ? 'stage1-active' : ''}`}>
       <div className="body">
         <div className="top">
           <div className="light"></div>
@@ -70,14 +92,14 @@ const Experience = () => {
         <h1> Events:  <span id="words">Day Wise</span></h1>
       </div>
     </div>
-    </Link>
+ 
     </div>
 
 
 
-    <div>
-    <Link to="/type-wise">
-    <div className="stage">
+    <div >
+ 
+    <div  onClick={handleclick} id='transis' className={`stage ${isTransformActive ? 'stage-active' : ''}`}>
       <div className="body">
         <div className="top">
           <div className="light"></div>
@@ -119,7 +141,7 @@ const Experience = () => {
         <h1> Events:  <span id="words">Type wise</span></h1>
       </div>
     </div>
-      </Link>
+  
     </div>
 
     </div>

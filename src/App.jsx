@@ -9,6 +9,7 @@ import Rocketry from "./components/Rocketry";
 import Contact from "./components/Contact";
 import { useState } from "react";
 import Intro from "./components/Intro";
+import Footer from "./components/Footer";
 
 
 function App (){
@@ -42,6 +43,7 @@ function App (){
     <Route path="/type-wise" exact element={<Typewise/>}/>
         
        </Routes>
+       <Footer/>
        </>
       )}
     </>

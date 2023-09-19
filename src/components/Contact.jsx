@@ -64,7 +64,7 @@ const Contact = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
          Contact Us
         </h2>
-    <div className=' flex flex-col md:flex-row gap-8 mx-auto'>
+    <div className=' flex flex-col md:flex-row md:gap-8 mx-auto'>
 
 
 
@@ -81,7 +81,7 @@ const Contact = () => {
            
             </div>
    
-            <p className='px-12 pt-2 text-2xl text-blue-700   text-left'>
+            <p className='px-12 pt-2 text-xl text-blue-700   text-left'>
            <b>Kattoju Hemanth</b>
             </p>
             <p className='px-12 text-lg pb-2 text-left text-teal-600  '>Secretary</p>
@@ -121,15 +121,15 @@ const Contact = () => {
 
 
     <section
-      className='my-[20px] py-12 flex-1 z-0'
+      className='my-[20px] pb-2 flex-1 z-0'
       id="#About"
 
     >
       <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl mx-auto bg-transparent'>
         <div className=' pb-12 flex flex-col'>
             <div className="">
-          <div className='flex-1 rounded-tl-xl rounded-tr-xl bg-gray-800 '>
-            <h2 className='h2 mb-10 px-4 py-3 font font-black text-white text-lg' >
+          <div className='flex-1 rounded-tl-xl rounded-tr-xl text-center '>
+            <h2 className='h2 mb-10 px-4 py-3 font font-black text-white font-mono text-xl md:text-3xl' >
             LOCATION
             </h2>
             </div>
