@@ -117,7 +117,7 @@ const technical = [
   },
   {
     title: "Programming dating",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
+    link:"https://forms.gle/oaUyvFmDQfEtfpMx5",
     company_name: "Joint code development for innovative solutions.",
     icon: p,
     iconBg: "#fff",
@@ -763,7 +763,7 @@ const day2 = [
   },
   {
     title: "Programming dating",
-    link:"https://docs.google.com/forms/d/e/1FAIpQLSdgaTV_8WIB_etM1fxO9uRDD-llzkJ2NlFx8mbJ6WPe3asK1A/viewform?usp=sf_link",
+    link:"https://forms.gle/oaUyvFmDQfEtfpMx5",
     company_name: "Joint code development for innovative solutions.",
     icon: p,
     iconBg: "#fff",
