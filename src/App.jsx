@@ -1,7 +1,7 @@
 
 import { Route, Routes } from "react-router-dom";
 import Earth3JS from "./Earthdmoon";
-import { Workshop,About, Experience, Hero, Typewise,Daywise } from "./components";
+import { Workshop,About, Experience, Hero, Typewise,Daywise, StarsCanvas } from "./components";
 
 import Navbar from './components/Navbar'
 import Drone from "./components/Drone";
@@ -30,8 +30,8 @@ function App (){
  
     <Route path="/" exact element={<>
       
-       <div id="dashboard"><Hero/></div>
-       <div id="about"><About/><Earth3JS/> </div>
+       <div id="dashboard"><Hero/> <StarsCanvas/></div>
+       <div id="about"><About/><div className=" sm:block hidden"><Earth3JS/> </div></div>
        <div id="workshop" className="w-[100%]"><Workshop/></div>
        <div id="events"><Experience/></div>
        <div id="contact"><Contact/></div>

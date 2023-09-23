@@ -58,6 +58,7 @@ const scrollToSection = (sectionId) => {
              <figure>
 
   <audio id="audio" autoPlay  loop src={aud}>
+ 
    
   </audio>
 </figure>

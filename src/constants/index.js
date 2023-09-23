@@ -138,7 +138,7 @@ const technical = [
     date: "06/10/2023 - 10:00 AM",
     points: [
       "Maximum of 2 members per team.",
-      "TIt is a programming event. You will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the correct program.",
+      "It is a programming event. You will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the correct program.",
       "Registration fee is Rs. 75.",
       "COORDINATORS: T C Adityaa-9944581729, Keerthivasan-8778336814 , Kamalesh-9150431574",
     ],
@@ -274,7 +274,7 @@ const nontechnical = [
       "For the first round, each team will be given 3 songs with time limit and the top six will be selected for the final round",
       "The second round will be rapid fire with 6 songs and the top three team will be the winners.",
       "Registration fee is Rs. 150/team.",
-      "Coordinators: Manoj S - 9360231583, Priyadharshini M - 9952179635, Priyadharshini - 9943469229",
+      "Coordinators: Manoj S - 9360231583, Priyadharshini M - 9095722121, Priyadharshini - 9943469229",
     ],
   },
   {
@@ -679,7 +679,7 @@ const day2 = [
       "For the first round, each team will be given 3 songs with time limit and the top six will be selected for the final round",
       "The second round will be rapid fire with 6 songs and the top three team will be the winners.",
       "Registration fee is Rs. 150/team.",
-      "Coordinators: Manoj S - 9360231583, Priyadharshini M - 9952179635, Priyadharshini - 9943469229",
+      "Coordinators: Manoj S - 9360231583, Priyadharshini M - 9095722121, Priyadharshini - 9943469229",
     ],
   },
   {
@@ -919,7 +919,7 @@ const day3 = [
     date: "06/10/2023 - 10:00 AM",
     points: [
       "Maximum of 2 members per team.",
-      "TIt is a programming event. You will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the correct program.",
+      "It is a programming event. You will not be given the problem statement for any question. Just the sample inputs and sample outputs. Using just that, you are required to find the logic between the inputs and the outputs and code the correct program.",
       "Registration fee is Rs. 75.",
       "COORDINATORS: T C Adityaa-9944581729, Keerthivasan-8778336814 , Kamalesh-9150431574",
     ],
