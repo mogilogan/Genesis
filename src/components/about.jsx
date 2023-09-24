@@ -11,7 +11,7 @@ const About = () => {
     <section className='z-0 w-[100%]'>
     <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         <div class="flex flex-col lg:flex-row justify-between gap-8">
-            <div class="w-full lg:w-5/12 flex flex-col justify-center">
+            <div class="w-full lg:w-5/12 flex flex-col justify-center" style="text-align: justify;">
                 <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-[#915EFF] pb-4">About Genesis</h1>
                 <p class="font-normal md:text-lg text-base leading-6 text-gray-600 dark:text-white">"Genesis" stands as a quadrennial cornerstone, a national-level symposium meticulously convened by the Department of Electronics and Communication Engineering (ECE) at Puducherry Technological University since its inaugural manifestation in 1992. This unique scholarly forum unfolds once every four years, fostering a dynamic convergence of erudition, workshops, and competitive arenas spanning the gamut of electronics and communication. With an enduring legacy spanning multiple decades, Genesis epitomizes the union of innovation, knowledge dissemination, and professional networking. It remains an esteemed biennial juncture, harmonizing enthusiasts and luminaries in a quest to unravel the frontiers of ECE's evolution.</p>
             </div>
@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div class="flex lg:flex-row flex-col justify-between gap-8 pt-12">
-            <div class="w-full lg:w-5/12 flex flex-col justify-center">
+            <div class="w-full lg:w-5/12 flex flex-col justify-center" style="text-align: justify;">
                 <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-[#915EFF] pb-4">Our Story</h1>
                 <p class="font-normal md:text-lg text-base leading-6 text-white">The upcoming edition of "CosmoComm" derives its inspiration from the recent triumph of Chandrayaan-3 and the triumphant landing of its rover. Aptly named in light of these achievements, this edition encapsulates the essence of cosmic communication. With the evocative tagline "Tuning into Lunar Frequencies," CosmoComm beckons participants to explore the nexus of space, technology, and communication. The symposium provides a platform for enthusiasts, researchers, and visionaries to delve into workshops, discussions, and contests that navigate the realms of interstellar connectivity. This edition of CosmoComm serves as a nexus for those captivated by space and its celestial inhabitants, encapsulating the spirit of scientific exploration and technological innovation.</p>
             </div>
