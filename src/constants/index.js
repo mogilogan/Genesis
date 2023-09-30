@@ -285,8 +285,7 @@ const nontechnical = [
     iconBg: "#fff",
     date: "06/10/2023 - 10:00 AM",
     points: [
-      "Each Team should consist maximum of  4 members , All team members should be from same college.",
-      " Total number of teams is 20. Entries will be closed after that.",
+      "Each Team should consist maximum of  4 members.",
       "First round :     Each team will be given a set of question paper containing 25 MCQs related to cricket.",
       "Second round: Auction round.",
       "Registration fee is Rs. 200/team.",
@@ -344,10 +343,10 @@ const literary = [
   {
     title: "If things had Life",
     link:"https://forms.gle/aGcgKfjEiyTnxiJJ6",
-    company_name: "Explore science through captivating cinematic experiences.",
+    company_name: "Listen to the voices of the unheard things",
     icon: i,
     iconBg: "#fff",
-    date: "06/10/2023 - 10:00 AM",
+    date: "06/10/2023 - 11:00 AM",
     points: [
       "Indivdual event",
       "The participants are assigned an inanimate object (non-living thing) and asked to deliver a short speech from the perspective of that object, embodying its thoughts, emotions, and experiences.",
@@ -374,19 +373,19 @@ const literary = [
 
 const cultural = [
   {
-    title: "Variety Variety - Classical Solo",
+    title: "Variety Variety - Solo",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSd0AUYgsMWaBW21zKv64_Gt1h92cVLqqoGN-FvqB_YG0wHC7Q/viewform?usp=sf_link",
     company_name: "Experience a diverse classical solo showcase in music, dance, and more.",
     icon: v,
     iconBg: "#fff",
-    date: "05/10/2023 - 9:30 AM",
+    date: "05/10/2023 - After 4 PM",
     points: [
       "The solo performance can be anything (dancing, singing, Instrumental etc...).",
       " Duration for each performance 3 to 4 minutes.",
       "The theme is open, but it should not be abusive, any political issue or hurt any religious view. Otherwise participation will be disqualified. No lighters, cigarettes are allowed.",
       "The Required materials should be brought by the participants themselves. If participants have audio file should be submitted at the starting of the event itself only after final checking.",
       "Registration fee is Rs. 150.",
-      "CO-ORDINATORS: DHINESHKUMAR G (8220557900), PRATIKSHA R (9360871181), PRAVEENE R (8438778446)",
+      "CO-ORDINATORS: Bhargav Naidu(9440451616), Kalyan T (8151871419), PRATIKSHA R (9360871181)",
     ],
   },
   {
@@ -395,7 +394,7 @@ const cultural = [
     company_name: "Express yourself through solo dance performance.",
     icon: s,
     iconBg: "#fff",
-    date: "06/10/2023 - 09:30 AM",
+    date: "06/10/2023 - After 4 PM",
     points: [
       "The solo performance (Dance only).",
       "Duration for each performance 4 to 5 minutes.",
@@ -411,7 +410,7 @@ const cultural = [
     company_name: "Dance to evolving musical rhythms.",
     icon: a,
     iconBg: "#fff",
-    date: "04/10/2023 - 02:30 PM",
+    date: "04/10/2023 - After 4 PM",
     points: [
       "Solo event.",
       "Duration - 3 minutes.",
@@ -426,7 +425,7 @@ const cultural = [
     company_name: "A diverse and entertaining event for all",
     icon: v,
     iconBg: "#fff",
-    date: "05/10/2023 - 02:00 PM",
+    date: "05/10/2023 - After 4 PM",
     points: [
       "The group performance can be anything (dancing, singing, Instrumental etc...).",
       "Duration for each performance 3 to 4 minutes.",
@@ -557,7 +556,7 @@ const day1 = [
     company_name: "Dance to evolving musical rhythms.",
     icon: a,
     iconBg: "#fff",
-    date: "04/10/2023 - 02:30 PM",
+    date: "04/10/2023 - After 4 PM",
     points: [
       "Solo event.",
       "Duration - 3 minutes.",
@@ -698,19 +697,19 @@ const day2 = [
     ],
   },
   {
-    title: "Variety Variety - Classical Solo",
+    title: "Variety Variety - Solo",
     link:"https://docs.google.com/forms/d/e/1FAIpQLSd0AUYgsMWaBW21zKv64_Gt1h92cVLqqoGN-FvqB_YG0wHC7Q/viewform?usp=sf_link",
     company_name: "Experience a diverse classical solo showcase in music, dance, and more.",
     icon: v,
     iconBg: "#fff",
-    date: "05/10/2023 - 9:30 AM",
+    date: "05/10/2023 - After 4 PM",
     points: [
       "The solo performance can be anything (dancing, singing, Instrumental etc...).",
       " Duration for each performance 3 to 4 minutes.",
       "The theme is open, but it should not be abusive, any political issue or hurt any religious view. Otherwise participation will be disqualified. No lighters, cigarettes are allowed.",
       "The Required materials should be brought by the participants themselves. If participants have audio file should be submitted at the starting of the event itself only after final checking.",
       "Registration fee is Rs. 150.",
-      "CO-ORDINATORS: DHINESHKUMAR G (8220557900), PRATIKSHA R (9360871181), PRAVEENE R (8438778446)",
+      "CO-ORDINATORS: Bhargav Naidu(9440451616), Kalyan T (8151871419), PRATIKSHA R (9360871181)",
     ],
   },
   {
@@ -797,7 +796,7 @@ const day2 = [
     company_name: "A diverse and entertaining event for all",
     icon: v,
     iconBg: "#fff",
-    date: "05/10/2023 - 02:00 PM",
+    date: "05/10/2023 - After 4 PM",
     points: [
       "The group performance can be anything (dancing, singing, Instrumental etc...).",
       "Duration for each performance 3 to 4 minutes.",
@@ -884,7 +883,7 @@ const day3 = [
     company_name: "Express yourself through solo dance performance.",
     icon: s,
     iconBg: "#fff",
-    date: "06/10/2023 - 09:30 AM",
+    date: "06/10/2023 - After Pm ",
     points: [
       "The solo performance (Dance only).",
       "Duration for each performance 4 to 5 minutes.",
@@ -949,8 +948,7 @@ const day3 = [
     iconBg: "#fff",
     date: "06/10/2023 - 10:00 AM",
     points: [
-      "Each Team should consist maximum of  4 members , All team members should be from same college.",
-      " Total number of teams is 20. Entries will be closed after that.",
+      "Each Team should consist maximum of  4 member.",
       "First round :     Each team will be given a set of question paper containing 25 MCQs related to cricket.",
       "Second round: Auction round.",
       "Registration fee is Rs. 200/team.",
@@ -975,10 +973,10 @@ const day3 = [
   {
     title: "If things had Life",
     link:"https://forms.gle/aGcgKfjEiyTnxiJJ6",
-    company_name: "Explore science through captivating cinematic experiences.",
+    company_name: "Listen to the voices of the unheard things",
     icon: i,
     iconBg: "#fff",
-    date: "06/10/2023 - 10:00 AM",
+    date: "06/10/2023 - 11:00 AM",
     points: [
       "Indivdual event",
       "The participants are assigned an inanimate object (non-living thing) and asked to deliver a short speech from the perspective of that object, embodying its thoughts, emotions, and experiences.",
