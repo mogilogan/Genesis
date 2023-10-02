@@ -394,7 +394,7 @@ const cultural = [
     company_name: "Express yourself through solo dance performance.",
     icon: s,
     iconBg: "#fff",
-    date: "06/10/2023 - After 4 PM",
+    date: "06/10/2023 - 5 PM",
     points: [
       "The solo performance (Dance only).",
       "Duration for each performance 4 to 5 minutes.",
@@ -883,7 +883,7 @@ const day3 = [
     company_name: "Express yourself through solo dance performance.",
     icon: s,
     iconBg: "#fff",
-    date: "06/10/2023 - After Pm ",
+    date: "06/10/2023 - 5 PM ",
     points: [
       "The solo performance (Dance only).",
       "Duration for each performance 4 to 5 minutes.",
